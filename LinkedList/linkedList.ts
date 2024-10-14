@@ -68,13 +68,12 @@ class LinkedList<T> {
 	}
 }
 
-// Example usage:
 const linkedList = new LinkedList<number>();
 linkedList.add(1);
 linkedList.add(2);
 linkedList.add(3);
-linkedList.display(); // Output: 1, 2, 3
+linkedList.display();
 linkedList.remove(2);
-linkedList.display(); // Output: 1, 3
-console.log(linkedList.find(3)); // Output: ListNode { value: 3, next: null }
-console.log(linkedList.find(2)); // Output: null
+linkedList.display();
+console.log(linkedList.find(3));
+console.log(linkedList.find(2));
